@@ -1,0 +1,176 @@
+body {
+  font-size: 14px;
+  color: #333;
+  background-color: #fff;
+  letter-spacing: 1px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.slides-navigation {
+  z-index: 6;
+}
+
+.slides-navigation .prev,
+.slides-navigation .next {
+  width: 47px;
+  height: 47px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.slides-navigation a.prev {
+  left: 20px;
+  background-image: url(../icons/white-back.png);
+}
+
+.slides-navigation a.next {
+  right: 20px;
+  background-image: url(../icons/white-forward.png);
+}
+
+.titleMessage {
+  position: absolute;
+  width: 100%;
+  height: 250%;
+  top: 50%;
+  z-index: 5;
+  text-align: center;
+  margin-top: -125px;
+}
+
+.titleMessage .heading p {
+  color: #ffda22;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
+}
+
+.titleMessage .heading .main {
+  font-size: 50px;
+}
+
+.titleMessage .heading .sub {
+  font-size: 23px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+.aboutImage {
+  max-width: 100%;
+}
+
+.skillsSection {
+  background-color: #48cae4;
+  /* #e74c3c */
+  color: #000;
+}
+
+.skill {
+  text-align: center;
+  margin-left: 10px;
+}
+
+.chart {
+  position: relative;
+  width: 152px;
+  height: 152px;
+  display: inline-block;
+  /* margin-left: 25px; */
+  text-align: center;
+}
+
+.chart canvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.chart .percent {
+  color: #000;
+  line-height: 152px;
+  display: inline-block;
+  font-size: 35px;
+}
+
+.chart .percent:after {
+  content: "%";
+}
+
+#navigation {
+  background-color: #0096c7;
+  padding: 20px 10px;
+  z-index: 100;
+  width: 100%;
+}
+#navigation li {
+  padding: 0 10px;
+}
+
+#navigation li a {
+  color: #fff;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.navbar-toggler-icon {
+  background: url(../icons/menu.png);
+  background-size: 100%;
+}
+
+.fixedNav #navigation {
+  position: fixed;
+  top: 0;
+}
+
+#port {
+  color: #000;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: 100;
+  letter-spacing: 7px;
+}
+
+#port-raw {
+  height: 250px;
+}
+
+.col-md-4 img {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.col-md-4 .img .button {
+  margin-top: 50px;
+  max-width: 100%;
+}
+
+#video {
+  background-color: #48cae4;
+}
+
+.social-icon {
+  color: #0096c7;
+  transition: 0.2s;
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 3em;
+  display:inline-block;
+}
+
+.social-icon p {
+  font-size: 0.35em;
+}
+.social-icon:hover {
+  color: #e74c3c;
+}
