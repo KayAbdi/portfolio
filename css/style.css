@@ -119,6 +119,10 @@ body {
   color: #fff;
 }
 
+#navigation li a:hover {
+  color: #e74c3c;
+}
+
 .navbar-brand,
 .navbar-brand:hover {
   color: #fff;
@@ -143,6 +147,11 @@ body {
 
 #port-raw {
   height: 250px;
+}
+
+.portfolio-img:hover {
+  box-shadow: 10px 10px 5px grey;
+  transition: 0.5s;
 }
 
 .col-md-4 img {
